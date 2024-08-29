@@ -43,7 +43,7 @@ export default {
   },
 
   async getCountryDetails(): Promise<Country[]> {
-    const parts = ['dbolympic', 'dbolympic2', 'dbolympic3', 'dbolympic4', 'dbolympic5'];
+    const parts = ['dbolympic', 'dbolympic2', 'dbolympic3', 'dbolympic4', 'dbolympic5','dbolympic6','dbolympic7','dbolympic8','dbolympic9'];
     const dataPromises = parts.map((part) =>
       apiClient
         .get(`https://my-json-server.typicode.com/matchimaky/${part}/country`)

@@ -24,6 +24,7 @@ onMounted(async () => {
     <div v-if="country">
       <p>Country Name: {{ country.name }}</p>
       <p>Description: {{ country.description }}</p>
+      <p v-if="country.hostcountry"> Host country: {{ country.hostcountry }}</p>
     </div>
   </div>
 </template>
