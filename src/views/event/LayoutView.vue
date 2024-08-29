@@ -59,7 +59,7 @@ async function submitComment() {
       <RouterView v-if="event" :key="event.id" :event="event" />
     </div>
     <div v-else>
-      <p>Countr y not found or failed to load.</p>
+      <p>Country not found or failed to load.</p>
     </div>
     <div class="max-w-lg mx-auto mt-8 p-6 border border-gray-300 rounded-lg shadow-sm">
       <h3 class="text-lg font-bold mb-4">Leave a Comment</h3>
